@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar
+{
+
+    background-color: beige;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.nav-bar ul li a{
+    text-decoration: none;
+}
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color:black;
+    margin-left: 5px;
+    text-indent: 40px;
+}
+
+h2, h3, h4 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center; 
+    color: maroon;
+    margin-left: 20px;
+    padding: 5px;
+    margin: 0px 10px 10px 0px;
+}
+
+.nome-do-blog {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: maroon;
+    Color: white;
+    padding: 5px;
+    margin: 0px 5px 5px 0px;
+}
+
+.corpo-da-pagina {
+    background-color: beige;
+}
+
+.imagens img{
+    float: inherit;
+    width: 15%;
+    border: thin solid;
+    padding: 5px;
+    margin: 5px 10px 10px 5px;
+}
+
+#Rodape {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: maroon;
+    color: white;
+    padding: 5px;
+    margin: 0px 10px 10px 0px;
+}
+
+#desenholilith {
+    color:red;
+    text-align: left;
+}
+
+.texto-imagem{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+.Formulario{
+    background-color:antiquewhite;
+    padding-left: 15px;
+}

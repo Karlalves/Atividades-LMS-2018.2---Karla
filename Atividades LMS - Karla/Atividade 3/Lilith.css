@@ -76,3 +76,21 @@ h2, h3, h4 {
     background-color:antiquewhite;
     padding-left: 15px;
 }
+
+#id{
+    border: 2px;
+    border-color: black;
+
+}
+
+.primeiro-texto{
+    font-size:18px; 
+    text-align:center;
+    padding-left: 12px;
+
+    
+
+}
+.texto1{
+    padding-left: 12px;
+}

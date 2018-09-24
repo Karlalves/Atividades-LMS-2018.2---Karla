@@ -5,42 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>W3schools</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-        }
-        .navegador-superior {
-            background-color: green;
-            float: left;
-            width: 30%;
-        }
-        .barra-lateral {
-            
-        }
-    </style>
+    <link rel="stylesheet" href="w3schools.css">
+
 </head>
 <body>
-    <header class="Logo">W3schools</header>
-    <nav class="navegador-superior">
+    <header class="Logo">
+        <img src="Logo.png">
+        <div class="texto">O MAIOR SITE DO DESENVOLVEDOR DA WEB DO MUNDO</div>
+    </header>
+   <nav class="barra-superior">
         <ul>
             <li>
-                <a href="">Tutorial</a>
-                <a href="">Referências</a>
-                <a href="">Exemplos</a>
+                <div class="dropdown">
+                    <div class="botao-dropdown">
+                        Tutoriais
+                    </div>
+                    <div class="conteudo-dropdown">
+                        <ul>
+                            <li><a href="">Aprender HTML</a></li>
+                            <li><a href="">Aprender CSS</a></li>
+                            <li><a href="">Aprender SVG</a></li>
+                        </ul>
+                    </div>
+                </div>
             </li>
+            <li><a href="">Referências</a></li>
+            <li><a href="">Exemplos</a></li>
         </ul>
-    </nav>
-
-    <nav class="barra-lateral"> 
+   </nav>
+   <div class="navegador-lateral">
         <ul>
-            <li>
-                <a href="">HTML e CSS</a>
-                <a href="">JavaScript</a>
-            </li>
+            <li><a href="">Aprender HTML</a></li>
+            <li><a href="">Aprender CSS</a></li>
+            <li><a href="">Aprender SVG</a></li>
         </ul>
-    </nav>
+    </div>
 </body>
 </html>

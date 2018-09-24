@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Logo img{
+    height: 50px;
+}
+
+.Logo .texto{
+    float: right;
+    display: block;
+    padding-top: 25px;
+    padding-right: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*Por padrão o float faz com que os elementos perca a altura.*/
+/*Overflow: hidden faz com que a altura dos elementos floats sejam consideradas*/ 
+.barra-superior{
+    background-color: #4caf50;
+    overflow: hidden;
+}
+
+.barra-superior ul{
+    list-style-type: none;
+}
+
+.barra-superior ul li a{
+    display: block;
+    float: left;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dropdown {
+    float: left;
+}
+
+.dropdown .botao-dropdown{
+    padding: 15px;
+    cursor: pointer;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*Position: absolute - posiciona o conteúdo em relação a classe mãe e fica oculto pros outros elementos*/
+.dropdown .conteudo-dropdown{
+    position: absolute;
+    background-color: #636161;
+    display: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*hover - o conteúdo aparece quando passa o mouse*/
+.dropdown:hover .conteudo-dropdown{
+    display: block;
+}
+
+.barra-superior ul li a:hover, .dropdown .botao-dropdown:hover, .navegador-lateral ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+.navegador-lateral{
+    width: 20%;
+    background-color: #f1f1f1;
+    height: 100vh;
+}
+
+.navegador-lateral ul{
+    list-style-type: none;
+}
+
+.navegador-lateral ul li a{
+    text-decoration: none;
+    color:black;
+    display: block;
+    padding: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
